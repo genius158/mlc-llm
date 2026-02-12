@@ -23,7 +23,7 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file('./app/demo.jks')
+            storeFile file('./demo.jks')
             print("storeFile: "+storeFile)
             storePassword '123456'
             keyAlias 'demo'
